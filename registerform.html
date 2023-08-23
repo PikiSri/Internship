@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Details Form</title>
+    <link rel="stylesheet" type="text/css" href="registerform.css" />
+</head>
+<body>
+    <h1 >General Admission Registration</h1>
+    <div>
+    <div class="col">
+        <form>
+            <p>Name <span><input type ="text" name="name" placeholder="First Name"  > <input type ="text" name="name" placeholder="Last Name"  ></span></p>
+                <p>Email  <span><input type ="email" name="mail" placeholder="sample@example.com"></span> </p>
+                <p>Gender <span><input type ="radio" name="gender"> Male
+                    <input type ="radio" name="gender" > Female</p></span>
+                 <p>Phone <span><input type ="number" name="num"></p>  </span>
+                 <p>Emergency Contact</p>
+                 <p><span style="padding-left: 60px;"><input type ="number" name="contact"></p></span>
+                 <p>Do you require parking?</p>
+                 <p><span style="padding-left: 60px;"><input type ="radio" name="parking"> Yes</span>
+                 <span> <input type ="radio" name="parking"> No</span></p>
+                 <p>What is your room preference?</p>
+                 <p><span style="padding-left: 60px;"><input type ="radio" name="roompreference" > Single Room</span></p>
+                <p><span style="padding-left: 60px;"><input type ="radio" name="roompreference" > Shared Room</span></p>
+                 <p><span style="padding-left: 60px;"><input type ="radio" name="roompreference" > No Room Needed</span></p>
+        </form>
+    </div>
+    <div class="vertical" ></div>
+    <div class="col" >
+        <form>
+            <p >Do you have dietary restrictions?</p>      
+          <span> <input type ="radio" name="diet" > None <br>  </span>          
+          <span><input type ="radio" name="diet" > Vegetarian<br></span>
+          <span> <input type ="radio" name="diet" > Glutten Allergy<br></span>
+          <span><input type ="radio" name="diet" > Lactose Allergy<br></span>
+          <span><input type ="radio" name="diet" > Nut Allergy<br></span>
+          <span><input type ="radio" name="diet" > Shellfish Allergy</span>
+            <p >What activities will you attend?</p>
+            <p><span><input type ="radio" name="activities" > Awards Gala Dinner </span></p>
+            <p><span><input type ="radio" name="activites" > Luncheon</span></p>
+            <p><span><input type ="radio" name="activites" > Town Hall </span></p>
+            <p >Do you want to see the list of other attendees and their profiles on the official event app?</p>
+            <p><span><input type ="radio" name="profile" > Yes</span>
+            <span> <input type ="radio" name="profile"> No </p></span>
+         </form>
+    </div>
+    </div>
+</body>
+</html>

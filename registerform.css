@@ -1,0 +1,32 @@
+.col{
+    float:left;
+    width:50%;
+    height:100%;
+    padding: 10px;    
+}
+* {
+    box-sizing: border-box;
+  }
+.vertical {
+    border-left: 2px solid grey;
+    height: 550px;
+    position:absolute;
+    left: 50%;
+}
+input[type="text"]{
+    width:90px;
+    height:20px;
+}
+h1{
+    text-align: center;
+}
+div{
+    padding-left: 20px;
+}
+span{
+    padding-left: 20px;
+}
+input[type='radio']{
+    transform: scale(1.5);
+    margin-bottom: 15px;  
+}
