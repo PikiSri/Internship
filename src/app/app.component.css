@@ -1,0 +1,9 @@
+div{
+text-align: center;
+background-image: url('src\assets\coffee.jpeg');
+padding: 100px 100px 100px 100px;
+}
+span{
+    padding: 20px 20px 20px 20px;
+    background-color: aliceblue;
+}
